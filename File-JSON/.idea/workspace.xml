@@ -17,9 +17,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2hgOalBCCb9nShW2mzn9veLBRfo" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,21 +38,28 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/JDK/FILE-JSON(Module 10)/File-JSON/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JDK\FILE-JSON(Module 10)\File-JSON\src" />
+      <recent name="D:\JDK\FILE-JSON(Module 10)\File-JSON\src\main\resources" />
+      <recent name="D:\JDK\FILE-JSON(Module 10)\File-JSON\src\main\java\org\example" />
+      <recent name="D:\JDK\FILE-JSON(Module 10)\File-JSON\src\main" />
       <recent name="D:\JDK\FILE-JSON(Module 10)\File-JSON\src\textFirst" />
     </key>
   </component>
   <component name="RunManager" selected="Application.CountWords">
     <configuration name="CountWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.words.CountWords" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CountWords" />
       <module name="File-JSON" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.words.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,11 +68,11 @@
       </method>
     </configuration>
     <configuration name="Json" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.json.Json" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Json" />
       <module name="File-JSON" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.json.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,11 +81,11 @@
       </method>
     </configuration>
     <configuration name="PhoneNumberValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.file.PhoneNumberValidator" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PhoneNumberValidator" />
       <module name="File-JSON" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.file.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,6 +118,7 @@
       <option name="presentableId" value="Default" />
       <updated>1718012322489</updated>
       <workItem from="1718012323543" duration="12656000" />
+      <workItem from="1718104840411" duration="1348000" />
     </task>
     <servers />
   </component>
@@ -121,19 +129,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/file/PhoneNumberValidator.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/PhoneNumberValidator.java</url>
           <line>35</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/words/CountWords.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/CountWords.java</url>
           <line>18</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/words/CountWords.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/CountWords.java</url>
           <line>36</line>
-          <properties class="org.example.words.CountWords" method="main">
+          <properties class="org.example.CountWords" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

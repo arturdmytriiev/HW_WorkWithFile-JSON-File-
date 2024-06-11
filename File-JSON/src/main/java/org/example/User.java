@@ -1,4 +1,4 @@
-package org.example.json;
+package org.example;
 
 
 public class User {

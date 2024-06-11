@@ -1,6 +1,4 @@
-package org.example.words;
-
-import com.sun.source.tree.Tree;
+package org.example;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -35,6 +33,6 @@ public class CountWords {
     }
 
     public static void main(String[] args) {
-        counterWords("src/words/words.txt");
+        counterWords("src/words.txt");
     }
 }

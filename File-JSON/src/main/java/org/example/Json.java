@@ -1,12 +1,10 @@
-package org.example.json;
+package org.example;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.google.gson.stream.JsonReader;
 
 import java.io.*;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
@@ -36,7 +34,7 @@ public class Json {
             {
                 e.printStackTrace();
             }
-            try(FileWriter fW = new FileWriter("src/textSecond/User.json"))
+            try(FileWriter fW = new FileWriter("User.json"))
             {
                 gson.toJson(users, fW);
             }
@@ -51,7 +49,7 @@ public class Json {
     }
 
     public static void main(String[] args) throws FileNotFoundException {
-        JsonConvert("src/textSecond/text.txt");
+        JsonConvert("src/text2.txt");
     }
 }
 

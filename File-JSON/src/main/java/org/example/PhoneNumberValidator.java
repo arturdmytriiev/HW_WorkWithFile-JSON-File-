@@ -1,4 +1,4 @@
-package org.example.file;
+package org.example;
 
 import java.io.*;
 import java.util.Scanner;
@@ -29,7 +29,7 @@ class PhoneNumberValidator {
 
     }
     public static void main(String[] args) throws FileNotFoundException {
-        phoneNumberValidator("src/textFirst/text.txt");
+        phoneNumberValidator("src/text1.txt");
     }
 }
 
