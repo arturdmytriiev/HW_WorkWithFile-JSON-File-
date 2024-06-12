@@ -16,7 +16,11 @@ public class CountWords {
             while(bR.ready()) {
                 String [] line = bR.readLine().split(" ");
                 for(String word : line) {
-                    map.put(word, map.getOrDefault(word, 0) + 1);
+                    boolean onlyLetters = word.matches("[a-zA-Z]+");
+                    if(!word.equals("") && onlyLetters)
+                    {
+                        map.put(word, map.getOrDefault(word, 0) + 1);
+                    }
                 }
             }
         }
@@ -24,9 +28,12 @@ public class CountWords {
         {
             e.printStackTrace();
         }
-        TreeMap<String,Integer> sorted  = new TreeMap<>(Collections.reverseOrder());
-        sorted.putAll(map);
-        for(Map.Entry<String, Integer> entry : sorted.entrySet()) {
+        //Сортировка по ключу
+        /*TreeMap<String,Integer> sorted  = new TreeMap<>(Collections.reverseOrder());
+        sorted.putAll(map);*/
+        List<Map.Entry<String, Integer>>list = new ArrayList<>(map.entrySet());
+        list.sort((entry1, entry2) -> entry2.getValue().compareTo(entry1.getValue()));
+        for(Map.Entry<String, Integer> entry : list) {
             System.out.println(entry.getKey() + " " + entry.getValue());
         }
 
